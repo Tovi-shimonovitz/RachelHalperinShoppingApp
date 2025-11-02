@@ -11,7 +11,7 @@ function App() {
     <Provider store={store}>
       <Router>
         <div className="app-container">
-          <Header />
+          <Header color="yellow"/>
           <Routes>
             <Route path="/" element={<ShoppingList />} />
             <Route path="/order" element={<OrderDetails />} />
